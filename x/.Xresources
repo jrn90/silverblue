@@ -1,0 +1,44 @@
+!! rxvt-unicode config
+urxvt.font: xft:DejavuSansMono:pixelsize=14,antialias=true
+urxvt.cursorBlink: true
+urxvt.scrollBar: false
+urxvt.scrollBar_right: false
+
+!! rxvt-unicode colors
+! special
+urxvt.background: #22212C
+urxvt.foreground: #F8F8F2
+urxvt.cursorColor: #F8F8F2
+
+! black
+urxvt.color0: #22212C
+urxvt.color8:	#22212C
+
+! red
+urxvt.color1: #FF9580
+urxvt.color9: #FFAA99
+
+! green
+urxvt.color2: #8AFF80 
+urxvt.color10: #A2FF99
+
+! yellow
+urxvt.color3: #FFFF80
+urxvt.color11: #FFFF99
+
+! blue
+urxvt.color4: #9580FF
+urxvt.color12: #AA99FF
+
+! magenta
+urxvt.color5: #FF80BF
+urxvt.color13: #FF99CC
+
+! cyan
+urxvt.color6: #80FFEA
+urxvt.color14: #99FFEE
+
+! white
+urxvt.color7: #F8F8F2
+urxvt.color15: #FFFFFF
+
