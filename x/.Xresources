@@ -1,5 +1,5 @@
 !! rxvt-unicode config
-urxvt.font: xft:DejavuSansMono:pixelsize=14,antialias=true
+urxvt.font: xft:DejavuSansMono:pixelsize=14:antialias=true, xft:Symbola
 urxvt.cursorBlink: true
 urxvt.scrollBar: false
 urxvt.scrollBar_right: false
