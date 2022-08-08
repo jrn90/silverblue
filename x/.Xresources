@@ -6,7 +6,7 @@ Xft.hintstyle: hintlight
 Xft.lcdfilter: lcddefault
 
 !! rxvt-unicode config
-urxvt.font: xft:Hack:pixelsize=14:antialias=true, xft:Symbola
+urxvt.font: xft:CaskaydiaCove Nerd Font Mono:pixelsize=14:antialias=true, xft:Symbola
 urxvt.cursorBlink: true
 urxvt.scrollBar: false
 urxvt.scrollBar_right: false
