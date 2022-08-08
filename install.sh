@@ -5,6 +5,7 @@
 set -e
 
 CONFIG_DIR="$HOME/.config"
+FONT_DIR="$HOME/.fonts"
 I3_DIR="$HOME/.config/i3"
 POLYBAR_DIR="$HOME/.config/polybar"
 NITROGEN_DIR="$HOME/.config/nitrogen"
@@ -14,6 +15,10 @@ ROFI_THEMES_DIR="$HOME/.local/share/rofi/themes/"
 
 if [ ! -d "$CONFIG_DIR" ]; then
   mkdir "$CONFIG_DIR"
+fi
+
+if [ ! -d "$FONT_DIR" ]; then
+  mkdir "$FONT_DIR"
 fi
 
 if [ ! -d "$I3_DIR" ]; then
@@ -49,4 +54,4 @@ cp ./walls/wall.png "$WALLS_DIR"
 cp ./rofi/config.rasi "$ROFI_DIR"
 cp ./rofi/catppuccin-mocha.rasi "$ROFI_THEMES_DIR"
 cp ./x/.Xresources "$HOME"
-
+cp ./fonts/* "$FONT_DIR"
