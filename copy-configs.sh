@@ -15,3 +15,4 @@ cp "$HOME"/.walls/wall.png ./walls/
 
 cp "$HOME"/.config/rofi/config.rasi ./rofi
 cp "$HOME"/.local/share/rofi/themes/catppuccin-mocha.rasi ./rofi
+
